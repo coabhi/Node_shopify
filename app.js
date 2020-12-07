@@ -14,8 +14,8 @@ const helmet = require('helmet');
 const compression = require('compression');
 const morgan = require('morgan');
 
-const privateKey = fs.readFileSync('server.key');
-const certificate = fs.readFileSync('server.cert');
+// const privateKey = fs.readFileSync('server.key');
+// const certificate = fs.readFileSync('server.cert');
 
 const fileStorage = multer.diskStorage({
   destination : (req, file, cb) => {
