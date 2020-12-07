@@ -1,0 +1,8 @@
+{
+    "env" : {
+        "STRIPE_KEY" : "sk_test_51HY3VWJhJ804CqFM04zhvpB3hUm53tuHpmZGoDfJrq1RmixbsBJ0OE9dpSSLteAADeDUXbZRrtu7fIw51HPeg1Sp000SHZbkIX",
+        "MONGO_USER" : "abhinandan",
+        "MONGO_PASS" : "mongodb9792",
+        "MONGO_PORT" : "3000"
+    }
+}
