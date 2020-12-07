@@ -8,8 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=production STRIPE_KEY=sk_test_51HY3VWJhJ804CqFM04zhvpB3hUm53tuHpmZGoDfJrq1RmixbsBJ0OE9dpSSLteAADeDUXbZRrtu7fIw51HPeg1Sp000SHZbkIX MONGO_USER=abhinandan MONGO_PASS=mongodb9792 node app.js",
-    "start-server": "nodemon app.js"
+    "start": "NODE_ENV=production MONGO_USER=abhinandan MONGO_PASS=mongodb9792 STRIPE_KEY=sk_test_51HY3VWJhJ804CqFM04zhvpB3hUm53tuHpmZGoDfJrq1RmixbsBJ0OE9dpSSLteAADeDUXbZRrtu7fIw51HPeg1Sp000SHZbkIX node app.js",
+    "start-server": "node app.js",
+    "start:dev": "nodemon app.js"
   },
   "author": "Maximilian Schwarzmüller",
   "license": "ISC",
